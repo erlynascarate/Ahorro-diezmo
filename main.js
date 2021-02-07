@@ -1,12 +1,7 @@
-let gasto1 = prompt('Escribe en numero tu primer gasto');
-let gasto2 = prompt('Escribe en numero tu segundo gasto');
-let gasto3 = prompt('Escribe en numero tu tercer gasto');
-let gasto4 = prompt('Escribe en numero tu cuarto gasto');
-let gasto5 = prompt('Escribe en numero tu quinto gasto');
-let gasto6 = prompt('Escribe en numero tu sexto gasto');
-let gasto7 = prompt('Escribe en numero tu setimo gasto');
+//gastoTotal es el 60%
+let gastoTotal = prompt('Escribe (en numero) el total de tus gastos');
 
-let sesentaX100 = parseInt(gasto1) + parseInt(gasto2) + parseInt(gasto3) + parseInt(gasto4) + parseInt(gasto5) + parseInt(gasto6) + parseInt(gasto7);
+let sesentaX100 = parseInt(gastoTotal);
 let cuarentaX100 = (sesentaX100 / 3) * 2;
 
 let ahorro = (cuarentaX100 / 4) * 3;
