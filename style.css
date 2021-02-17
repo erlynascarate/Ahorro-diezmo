@@ -1,4 +1,26 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
 body {
    font-family: sans-serif;
-    font-size: 15pt;
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+section{
+	margin: 3% 7%;
+}
+
+#pulsar{
+	height: 40px;
+	width: 80px;
 }
